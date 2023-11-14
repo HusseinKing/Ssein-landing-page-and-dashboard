@@ -81,13 +81,13 @@ const TheNavbar = (props) => {
             <Nav.Link className={`${classes.nav__link} me-4`}>
               <Link
                 activeClass={classes.active}
-                to="testimonials"
+                to="#"
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={500}
               >
-                Testimonials
+                Download
               </Link>
             </Nav.Link>
             <Nav.Link href="/login" className={`${classes.nav__link}`}>
