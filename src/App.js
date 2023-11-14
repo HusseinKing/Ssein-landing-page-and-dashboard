@@ -3,17 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import NoPage from "./pages/NoPage";
-
+import whatsap from "./assets/image/whatsap.svg";
 export default function App() {
-    const openWhatsAppChat = () => {
-      // Replace 'your_whatsapp_number' with your actual WhatsApp business number
-      const phoneNumber = "+250 785 767 647";
-      // Generate the WhatsApp API link
-      const whatsappLink = `https://wa.me/${phoneNumber}`;
+const openWhatsAppChat = () => {
+  const phoneNumber = "+250787256182"; 
+  const message = "Hello! I have a question.";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
 
-      // Open the link in a new tab/window
-      window.open(whatsappLink, "_blank");
-    };
+  window.open(whatsappLink, "_blank");
+};
+
   return (
     <BrowserRouter>
       <Routes>
@@ -22,11 +23,27 @@ export default function App() {
           element={
             <div>
               <Home />
-              {/* Add WhatsApp chat button */}
-              <button onClick={openWhatsAppChat}>
+              <button
+                onClick={openWhatsAppChat}
+                style={{
+                  position: "fixed",
+                  bottom: "20px",
+                  right: "20px",
+                  backgroundColor: "#25d366", 
+                  padding: "10px",
+                  border: "none",
+                  borderRadius: "50%",
+                  cursor: "pointer",
+                }}
+              >
                 <img
-                  src="path-to-whatsapp-logo.png" // Replace with the actual path to the WhatsApp logo
+                  src={whatsap}
                   alt="WhatsApp Chat"
+                  style={{
+                    width: "40px",
+                    height: "auto",
+                    display: "block",
+                  }}
                 />
               </button>
             </div>
