@@ -1,11 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import classes from "./HeroSixSection.module.css";
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import icon1 from "../../assets/Icon/person-up.svg";
+import icon2 from "../../assets/Icon/crosshair.svg";
 const HeroSixSection = () => {
   //Rendering the Testimonial Section
   return (
-    <section id="testimonials">
+    <section id="">
       <Container>
         <Row
           className={`${classes.row} mx-auto`}
@@ -15,68 +17,65 @@ const HeroSixSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Testimonials</h2>
-              <p>This is what our client are saying</p>
+              <h2>Did somebody say ssein delivery ?</h2>
             </div>
           </Col>
         </Row>
+        <div
+          className={`${classes.form_div} shadow p-4 w-75 mx-auto rounded-4`}
+        >
+          {/* Your form content */}
+          <Row className="mb-3">
+            <Col xs={1}>
+              <span className="icon">
+                <img
+                  src={icon1}
+                  alt="icon1"
+                  style={{ width: "40px", height: "40px" }}
+                ></img>
+              </span>
+            </Col>
+            <Col xs={10}>
+              <Form.Control type="text" placeholder="Enter Your Adress" />
+            </Col>
+            <Col xs={1}>
+              <span className="icon">
+                <img
+                  src={icon2}
+                  alt="icon1"
+                  style={{ width: "40px", height: "40px" }}
+                ></img>
+              </span>
+            </Col>
+          </Row>
 
-        <Row className={classes.row_content}>
-          <Col
-            lg={4}
-            data-aos="fade-up"
-            data-aos-easing="ease-out"
-            data-aos-duration="700"
-            data-aos-delay="150"
-          >
-            <div className={`${classes.text_div} px-2`}>
-              <h4 className={classes.header_text}>Paul James</h4>
-              <p className={classes.text_location}>Lagos state</p>
-              <p className={classes.text_content}>
-                With a Ssein Eats meal, you can serve delectable, home-cooked
-                meals to your family and friends in any location, anytime.
-                anyday!
-              </p>
-            </div>
-          </Col>
+          <Row className="mb-3">
+            <Col xs={6}>
+              <Form.Control
+                type="text"
+                placeholder="Apt / Unit Number (optional)"
+              />
+            </Col>
+            <Col xs={6}>
+              <Form.Control
+                type="text"
+                placeholder="Delivery Instruction (optional)"
+              />
+            </Col>
+          </Row>
 
-          <Col
-            lg={4}
-            data-aos="fade-up"
-            data-aos-easing="ease-out"
-            data-aos-duration="700"
-            data-aos-delay="300"
-          >
-            <div className={`${classes.text_div} px-2`}>
-              <h4 className={classes.header_text}>Mercy jude</h4>
-              <p className={classes.text_location}>kogi state</p>
-              <p className={classes.text_content}>
-                {" "}
-                Be it a small gathering of friends or a large event with
-                hundreds of people, you'll always be prepared. whether you're at
-                home or on the go.{" "}
-              </p>
-            </div>
-          </Col>
-
-          <Col
-            lg={4}
-            data-aos="fade-up"
-            data-aos-easing="ease-out"
-            data-aos-duration="700"
-            data-aos-delay="450"
-          >
-            <div className={`${classes.text_div} px-2`}>
-              <h4 className={classes.header_text}>Lara one</h4>
-              <p className={classes.text_location}>Imo state</p>
-              <p className={classes.text_content}>
-                No need to worry about any of this anymore with your app. Ssein
-                Eats are made with the highest quality ingredients for you and
-                your family.{" "}
-              </p>
-            </div>
-          </Col>
-        </Row>
+          <Row>
+            <Col>
+              <Button
+                variant="primary w-100"
+                block
+                style={{ backgroundColor: "#ff4d00", border: "none" }}
+              >
+                Find Restaurants In Your Area
+              </Button>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   );
