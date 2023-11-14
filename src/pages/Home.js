@@ -7,7 +7,7 @@ const Home = () => {
   //Rendering the cart and all the sections
   return (
     <>
-      <TheNav />
+      <TheNav/>
       <Sections />
       <TheFooter />
     </>
