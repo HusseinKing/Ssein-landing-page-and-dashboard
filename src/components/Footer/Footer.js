@@ -66,7 +66,7 @@ const Footer = () => {
             <div className={classes.social}>
               <h3>Social</h3>
               <a
-                href="https://www.instagram.com/code_redex/"
+                href="https://www.instagram.com/iamalvin250/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -92,7 +92,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://www.linkedin.com/in/eni-ola/"
+                href="https://www.linkedin.com/in/fistonalvin/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -110,7 +110,7 @@ const Footer = () => {
           <p className={classes.mobile_copy}>
             &copy;2022 Made with <i className="bi bi-heart-fill"></i> by&nbsp;
             <a
-              href="https://github.com/Eniola-Codes"
+              href="https://github.com/ALVINdimpos"
               target="_blank"
               rel="noreferrer"
               className={classes.eniola_codes}
