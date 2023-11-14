@@ -110,12 +110,12 @@ const Footer = () => {
           <p className={classes.mobile_copy}>
             &copy;2022 Made with <i className="bi bi-heart-fill"></i> by&nbsp;
             <a
-              href="https://github.com/ALVINdimpos"
+              href="#"
               target="_blank"
               rel="noreferrer"
               className={classes.eniola_codes}
             >
-              Alvin Coder
+              Ssein delivery
             </a>
           </p>
         </Row>
