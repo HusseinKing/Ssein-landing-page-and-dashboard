@@ -115,7 +115,7 @@ const Footer = () => {
               rel="noreferrer"
               className={classes.eniola_codes}
             >
-              Ssein delivery
+              ssein delivery
             </a>
           </p>
         </Row>
