@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className={classes.number__properties}>
             <div>
               <p className={classes.number__properties__digit}>500+</p>
-              <p className={classes.number__properties__text}>Food partners</p>
+              <p className={classes.number__properties__text}>Partners</p>
             </div>
             <div className="mx-4">
               <p className={classes.number__properties__digit}>1k+</p>
