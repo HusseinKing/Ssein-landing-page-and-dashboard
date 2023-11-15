@@ -28,13 +28,11 @@ const HeroFourSection = () => {
             </div>
             <div className={classes.about_body}>
               <p className={classes.text_content}>
-                I make delicious healthy meals for busy people who want to enjoy
-                home made food without the hassle of cooking. Why would you cook
-                when you don't have to? The Hot Plate makes it easy to eat your
-                favorite home cooked food anywhere you want. You deserve to eat
-                great food, whether you're at home or on the go. We'll help you
-                find unique meals wherever you are. With our app, you never have
-                to settle for unhealthy, expensive takeaway food again.
+                ssein delivery app! We're here to make your life easier by
+                bringing everything you need right to your doorstep. With our
+                user-friendly platform, you can easily order from a variety of
+                local businesses and track your delivery in real-time.
+                Experience convenience and reliability with us today!
               </p>
             </div>
             <div className={classes.about_footer}>

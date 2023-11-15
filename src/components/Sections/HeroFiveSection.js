@@ -34,12 +34,16 @@ const HeroFiveSection = () => {
           >
             <div className={classes.text_div}>
               <p className={classes.text_content}>
-                With our app, you never have to settle for unhealthy, expensive
-                takeaway food again. From spicy noodles to fresh salads, we'll
-                deliver anywhere in your city. Get tasty meals in just 30
-                minutes. It's simple. We make it easy for you to make smart
-                business decisions fast. Whether you have a busy schedule or
-                just enjoy home-cooked food,
+                Looking for a seamless and convenient shopping experience? Look
+                no further! Our delivery app is a must-have for anyone who
+                values their time and wants to avoid the hassle of crowded
+                stores. With just a few taps, you can browse through a wide
+                range of products, place orders, and have them delivered
+                straight to your doorstep. Whether you need groceries, household
+                items, or even a special treat, our app offers a wide selection
+                to cater to your needs. Say goodbye to long queues and hello to
+                effortless shopping. Download our delivery app now and enjoy the
+                convenience of shopping from the comfort of your own home.
               </p>
               <div className={classes.action_div}>
                 <img
