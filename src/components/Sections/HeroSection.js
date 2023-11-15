@@ -21,11 +21,14 @@ const HeroSection = () => {
           >
             <div className={classes.text__div}>
               <h1>
-                Enjoy <span>home made meals</span> far away from home
+                EasyDeliver : <span>Simplify Your</span> Deliveries with Just a
+                Tap
               </h1>
               <p>
-                Helping you enjoy comfortable and healthy food anywhere and
-                anytime on the go
+                Effortless deliveries at your fingertips! Our delivery app makes
+                it quick and easy to get your orders delivered right to your
+                doorstep. Say goodbye to the hassle and hello to convenience.
+                Download now and start enjoying seamless deliveries today!
               </p>
 
               <Link
@@ -36,7 +39,7 @@ const HeroSection = () => {
                 offset={-50}
                 duration={500}
               >
-                <TheButton >Download app</TheButton>
+                <TheButton>Download app</TheButton>
               </Link>
             </div>
           </Col>
