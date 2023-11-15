@@ -25,7 +25,7 @@ const HeroSixSection = () => {
           className={`${classes.form_div} shadow p-4 w-75 mx-auto rounded-4`}
         >
           {/* Your form content */}
-          <Row className="mb-3">
+          <Row className="mb-3 flex">
             <Col xs={1}>
               <span className="icon">
                 <img
@@ -36,7 +36,7 @@ const HeroSixSection = () => {
               </span>
             </Col>
             <Col xs={10}>
-              <Form.Control type="text" placeholder="Enter Your Adress" />
+              <Form.Control type="text" placeholder="Enter Your District" />
             </Col>
             <Col xs={1}>
               <span className="icon">
@@ -46,21 +46,6 @@ const HeroSixSection = () => {
                   style={{ width: "40px", height: "40px" }}
                 ></img>
               </span>
-            </Col>
-          </Row>
-
-          <Row className="mb-3">
-            <Col xs={6}>
-              <Form.Control
-                type="text"
-                placeholder="Apt / Unit Number (optional)"
-              />
-            </Col>
-            <Col xs={6}>
-              <Form.Control
-                type="text"
-                placeholder="Delivery Instruction (optional)"
-              />
             </Col>
           </Row>
 

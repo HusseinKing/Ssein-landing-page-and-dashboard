@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import classes from "./HeroThreeContent.module.css";
-import HeroThreeForm from "./HeroThreeForm";
 import CartContext from "../store/cartcontext";
 
 const HeroThreeContent = (props) => {

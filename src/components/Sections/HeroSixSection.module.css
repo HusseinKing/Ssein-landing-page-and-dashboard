@@ -61,4 +61,12 @@
   .action_div {
     text-align: center;
   }
+  .form_div{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px !important;
+  }
+  .form_div span {
+    display: none;
+  }
 }

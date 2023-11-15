@@ -37,15 +37,15 @@ const Footer = () => {
                   household.You can trust us anywhere through this platform
                 </p>
                 <p>
-                  &copy;2022 Made with <i className="bi bi-heart-fill"></i>{" "}
+                  &copy;2022 Made with 
                   by&nbsp;
                   <a
-                    href="https://alvincoder.com"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                     className={classes.eniola_codes}
                   >
-                    Alvin Coder
+                   ssein delivery 
                   </a>
                 </p>
               </div>
@@ -66,7 +66,7 @@ const Footer = () => {
             <div className={classes.social}>
               <h3>Social</h3>
               <a
-                href="https://www.instagram.com/iamalvin250/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -79,7 +79,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://mobile.twitter.com/Alvincoder/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -92,7 +92,7 @@ const Footer = () => {
                 </p>
               </a>
               <a
-                href="https://www.linkedin.com/in/fistonalvin/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -108,7 +108,7 @@ const Footer = () => {
           </Col>
 
           <p className={classes.mobile_copy}>
-            &copy;2022 Made with <i className="bi bi-heart-fill"></i> by&nbsp;
+            &copy;2022 Made with  by&nbsp;
             <a
               href="#"
               target="_blank"

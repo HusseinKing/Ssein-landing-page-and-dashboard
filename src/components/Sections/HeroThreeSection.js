@@ -2,12 +2,12 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./HeroThreeSection.module.css";
-import dish1 from "../../assets/image/dish1.webp";
-import dish2 from "../../assets/image/dish2.webp";
-import dish3 from "../../assets/image/dish3.webp";
-import dish4 from "../../assets/image/dish4.webp";
-import dish5 from "../../assets/image/dish5.webp";
-import dish6 from "../../assets/image/dish6.webp";
+import dish1 from "../../assets/image/unsplash_sA3wymYqyaI.png";
+import dish2 from "../../assets/image/unsplash_BXNctQYqPOc.png";
+import dish3 from "../../assets/image/unsplash_YlAmh_X_SsE.png";
+import dish4 from "../../assets/image/unsplash_d2PocYmscRg.png";
+import dish5 from "../../assets/image/unsplash_gwBcamFtPr4.png";
+import dish6 from "../../assets/image/unsplash_ysmeQt1dzcw.png";
 import HeroThreeContent from "../SectionComponents/HeroThreeContent";
 
 //Data objects to be used in the HeroThree section for rendering dishes information
@@ -15,21 +15,21 @@ const dummyListone = [
   {
     id: "d1",
     src: dish1,
-    name: "Yam and egg sauce",
+    name: "Sandwitches and Burgers",
     price: 1500,
   },
 
   {
     id: "d2",
     src: dish2,
-    name: "Jollof rice and chicken",
+    name: "Soup and Salad",
     price: 3500,
   },
 
   {
     id: "d3",
     src: dish3,
-    name: "Porridge beans",
+    name: "Beef Meat and Chicken",
     price: 2000,
   },
 ];
@@ -38,21 +38,21 @@ const dummyListtwo = [
   {
     id: "d4",
     src: dish4,
-    name: "Semo and egusi soup",
+    name: "Bowls and Plates",
     price: 5000,
   },
 
   {
     id: "d5",
     src: dish5,
-    name: "Amala and ewedu soup",
+    name: "Fish and Chips",
     price: 7000.0,
   },
 
   {
     id: "d6",
     src: dish6,
-    name: "Eba and okra soup",
+    name: "chicken and rice",
     price: 3000.0,
   },
 ];
