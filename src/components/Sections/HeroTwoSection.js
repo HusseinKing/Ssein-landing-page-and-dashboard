@@ -40,10 +40,13 @@ const HeroTwoSection = () => {
                   <img src={hamimg} alt="Hanmburger"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>Easy to order</h5>
+                  <h5>Transparent and Secure</h5>
                   <p>
-                    Order food at a single click and select all food to order at
-                    any poin in time and at ease and comfort{" "}
+                    Our app provides clear and transparent communication,
+                    keeping customers informed about the status of their orders
+                    and any potential delays. Our app prioritizes the security
+                    of customer information and transactions, using advanced
+                    encryption and secure payment gateways.
                   </p>
                 </div>
               </div>
@@ -63,10 +66,10 @@ const HeroTwoSection = () => {
                   <img src={deliveryimg} alt="Delivery man"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>fast delivery</h5>
+                  <h5>Cost-effective</h5>
                   <p>
-                    food delivery fast and reliable and get delivered at
-                    deliivery time and location any day, any time
+                    Our app offers competitive pricing and delivery options,
+                    providing value for money to customers.
                   </p>
                 </div>
               </div>
@@ -87,10 +90,12 @@ const HeroTwoSection = () => {
                   <img src={topimg} alt="Thumbs up"></img>
                 </div>
                 <div className={classes.card_text_div}>
-                  <h5>100% quality</h5>
+                  <h5>Efficient and convinient</h5>
                   <p>
-                    We provide quality food for you and your loved ones for
-                    health and so onnnnnn and for wellness
+                    Our app ensures quick and timely deliveries, optimizing
+                    routes and minimizing waiting times and provides a seamless
+                    and user-friendly experience, allowing customers to easily
+                    place orders and track their deliveries.
                   </p>
                 </div>
               </div>
