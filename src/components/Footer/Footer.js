@@ -32,20 +32,16 @@ const Footer = () => {
                 </Link>
               </div>
               <div className={classes.content_div}>
+                <p>SwiftDelivery: Your Ultimate Delivery Solution</p>
                 <p>
-                  Solution for easy and flexible getting meals for the
-                  household.You can trust us anywhere through this platform
-                </p>
-                <p>
-                  &copy;2022 Made with 
-                  by&nbsp;
+                  &copy;2022 Made with by&nbsp;
                   <a
                     href="#"
                     target="_blank"
                     rel="noreferrer"
                     className={classes.eniola_codes}
                   >
-                   ssein delivery 
+                    ssein delivery
                   </a>
                 </p>
               </div>
@@ -65,11 +61,7 @@ const Footer = () => {
           <Col lg={3}>
             <div className={classes.social}>
               <h3>Social</h3>
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <p>
                   <img
                     src={insta}
@@ -78,11 +70,7 @@ const Footer = () => {
                   ></img>
                 </p>
               </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <p>
                   <img
                     src={twitter}
@@ -91,11 +79,7 @@ const Footer = () => {
                   ></img>
                 </p>
               </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="#" target="_blank" rel="noreferrer">
                 <p>
                   <img
                     src={fb}
@@ -108,7 +92,7 @@ const Footer = () => {
           </Col>
 
           <p className={classes.mobile_copy}>
-            &copy;2022 Made with  by&nbsp;
+            &copy;2022 Made with by&nbsp;
             <a
               href="#"
               target="_blank"
