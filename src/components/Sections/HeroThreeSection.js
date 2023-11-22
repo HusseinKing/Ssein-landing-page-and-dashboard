@@ -109,7 +109,7 @@ const HeroThreeSection = () => {
         >
           <Col xs={12}>
             <div className={classes.header_div}>
-              <h2>Our daily dishes</h2>
+              <h2>Our partners</h2>
               <p>Check out recommended dishes of your choice</p>
             </div>
           </Col>
