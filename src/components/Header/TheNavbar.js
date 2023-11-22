@@ -11,7 +11,7 @@ const TheNavbar = (props) => {
 
   useEffect(() => {
     const isMobileDevice = () => {
-      return window.innerWidth <= 800;
+      return window.innerWidth <= 1199;
     };
     if (isMobileDevice()) {
       setLinksVisibility(false);
@@ -31,13 +31,13 @@ const TheNavbar = (props) => {
   }, []);
 
   const handleLinkClick = () => {
-    if (window.innerWidth <= 800) {
+    if (window.innerWidth <= 1199) {
       setLinksVisibility(false);
     }
   };
 
   const handleToggleClick = () => {
-    if (window.innerWidth <= 800) {
+    if (window.innerWidth <= 1199) {
       setLinksVisibility(true);
     }
   };
