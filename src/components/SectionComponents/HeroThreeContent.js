@@ -5,19 +5,12 @@ import CartContext from "../store/cartcontext";
 const HeroThreeContent = (props) => {
   // Using useContext hooks
   const cartCtx = useContext(CartContext);
-  //END
 
-  //Converting prices to two decimal places
-
-  const price = `₦${props.price.toFixed(2)}`;
-
-  //END
 
   //Adding data values to be managed to the useContext
   const onAddToCartHandler = (amount) => {
     cartCtx.addItem({
       id: props.id,
-      name: props.name,
       src: props.src,
     });
   };
