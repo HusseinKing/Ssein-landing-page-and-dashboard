@@ -6,11 +6,8 @@ import classes from "./Cart.module.css";
 import CartContext from "../store/cartcontext";
 
 const Cart = (props) => {
-  // Using useContext hooks
   const cartCtx = useContext(CartContext);
-  // ENDS
 
-  //Converting Total amount to two decimal places
 
   const totalAmount = `₦${cartCtx.totalAmount.toFixed(2)}`;
 
@@ -81,6 +78,5 @@ const Cart = (props) => {
   );
 };
 
-// ENDS
 
 export default Cart;
