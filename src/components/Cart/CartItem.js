@@ -6,7 +6,6 @@ const CartItem = (props) => {
 
   const price = `₦${props.price.toFixed(2)}`;
 
-  //ENDS
 
   //Layout and structure of the items to be passed to the cart component via props
   return (
@@ -41,7 +40,6 @@ const CartItem = (props) => {
       </div>
     </>
   );
-  //ENDS
 };
 
 export default CartItem;
