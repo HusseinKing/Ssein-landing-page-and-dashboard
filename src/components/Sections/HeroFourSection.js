@@ -16,8 +16,6 @@ const HeroFourSection = () => {
   const closeModal = () => {
     setShowModal(false);
   };
-
-  //Rendering the About section and the About Modal
   return (
     <>
       {showModal && (
@@ -85,7 +83,6 @@ const HeroFourSection = () => {
       </section>
     </>
   );
-  //END
 };
 
 export default HeroFourSection;
