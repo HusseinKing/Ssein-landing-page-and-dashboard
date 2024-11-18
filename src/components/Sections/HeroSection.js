@@ -7,7 +7,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import FoodImage from "../../assets/image/hero.svg";
 
 const HeroSection = () => {
-  //Rendering the Hero section(Landing page) on the DOM
   return (
     <section id="hero">
       <Container>
@@ -82,7 +81,6 @@ const HeroSection = () => {
       </Container>
     </section>
   );
-  //END
 };
 
 export default HeroSection;
