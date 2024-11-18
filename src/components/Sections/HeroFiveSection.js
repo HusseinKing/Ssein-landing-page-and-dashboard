@@ -7,7 +7,6 @@ import playStore from "../../assets/image/playstore.png";
 import appStore from "../../assets/image/appstore.png";
 
 const HeroFiveSection = () => {
-  //Structure % layout of the get our mobile app
   return (
     <section id="mobile-app">
       <Container>
@@ -77,7 +76,7 @@ const HeroFiveSection = () => {
       </Container>
     </section>
   );
-  //END
+  
 };
 
 export default HeroFiveSection;
